@@ -15,7 +15,7 @@ function setup() {
 }
 
 function draw() {
-  background(51);
+  background(0);
   ps.addParticle(mouseX, mouseY);
   //ps에 addPartcle을 적용시키는데 마우스의 위치에 따라 달라짐
 
