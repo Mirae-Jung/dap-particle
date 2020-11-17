@@ -34,9 +34,9 @@ class Particle {
 
   // Method to display
   display() {
-    stroke(255, this.lifespan);
+    stroke(255,102,0, this.lifespan);
     strokeWeight(2);
-    fill(255, this.lifespan);
+    fill(255,51,0, this.lifespan);
     ellipse(this.position.x, this.position.y, 12, 12);
   }
 
