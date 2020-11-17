@@ -20,7 +20,7 @@ function draw() {
   //ps에 addPartcle을 적용시키는데 마우스의 위치에 따라 달라짐
 
   // Apply gravity force to all Particles
-  let gravity = createVector(0, 0.1);
+  let gravity = createVector(0, 0.02);
   ps.applyForce(gravity);
   ps.applyRepeller(repeller);
 
