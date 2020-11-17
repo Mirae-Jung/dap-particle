@@ -1,13 +1,13 @@
 class Repeller {
   constructor(x, y) {
-    this.power = 150;
+    this.power = 300;
     this.position = createVector(x, y);
   }
 
   display() {
-    stroke(255);
+    stroke(255,102,0);
     strokeWeight(2);
-    fill(255);
+    fill(255,51,0);
     ellipse(this.position.x, this.position.y, 50, 50);
   }
 
