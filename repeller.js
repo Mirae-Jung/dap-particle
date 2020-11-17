@@ -7,9 +7,8 @@ class Repeller {
   display() {
     stroke(255);
     strokeWeight(2);
-    fill(127);
-    rectMode(CENTER)
-    rect(this.position.x, this.position.y, 200, 50);
+    fill(255);
+    ellipse(this.position.x, this.position.y, 50, 50);
   }
 
   repel(p) {
